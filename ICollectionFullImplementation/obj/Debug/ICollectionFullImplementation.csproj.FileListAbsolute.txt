@@ -1,0 +1,6 @@
+c:\users\predator\documents\visual studio 2015\Projects\ICollectionFullImplementation\ICollectionFullImplementation\bin\Debug\ICollectionFullImplementation.exe.config
+c:\users\predator\documents\visual studio 2015\Projects\ICollectionFullImplementation\ICollectionFullImplementation\bin\Debug\ICollectionFullImplementation.exe
+c:\users\predator\documents\visual studio 2015\Projects\ICollectionFullImplementation\ICollectionFullImplementation\bin\Debug\ICollectionFullImplementation.pdb
+c:\users\predator\documents\visual studio 2015\Projects\ICollectionFullImplementation\ICollectionFullImplementation\obj\Debug\ICollectionFullImplementation.csprojResolveAssemblyReference.cache
+c:\users\predator\documents\visual studio 2015\Projects\ICollectionFullImplementation\ICollectionFullImplementation\obj\Debug\ICollectionFullImplementation.exe
+c:\users\predator\documents\visual studio 2015\Projects\ICollectionFullImplementation\ICollectionFullImplementation\obj\Debug\ICollectionFullImplementation.pdb
