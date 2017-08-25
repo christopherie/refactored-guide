@@ -10,10 +10,15 @@ namespace ICollectionFullImplementation
         protected int Credits { get; set; }
         protected decimal CreditValue => 200M;
 
-        // default constructor
+        // ICollection properties
+        public override int Count => StudentList.Count;
+        public override bool IsReadOnly => false;
+        public override List<Student> StudentList { get; } = new List<Student>();
+
+        // default Postgraduate class constructor
         public Postgraduate() {}
 
-        // constructor
+        // custom Postgraduate class constructor
         public Postgraduate(string studentID, bool underOrpost, string fullName, DateTime birth,
             string social, string mail, Address postal, int creditAmt) 
             : base(studentID, underOrpost, fullName, birth, social, mail, postal)
@@ -21,7 +26,7 @@ namespace ICollectionFullImplementation
             Credits = creditAmt;
         }
 
-        // return postgraduate date
+        // return postgraduate data
         public override string ToString() => base.ToString() + $"Credits: {Credits}\nFee After Credits: {CalculateFeesAfterCredits():C}";
 
         // calculate fees for postgraduate with credits
@@ -34,11 +39,6 @@ namespace ICollectionFullImplementation
             }
             return total;
         }
-
-        // ICollection properties
-        public override int Count => StudentList.Count;
-        public override bool IsReadOnly => false;
-        public override List<Student> StudentList { get; } = new List<Student>();
 
         // ICollection add item
         public override void Add(Student item)
